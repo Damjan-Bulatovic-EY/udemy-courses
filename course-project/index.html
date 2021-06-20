@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Weather application</h1>
+    </header>
+    <div class="container">
+        <div class="serch">
+            <label for="city">Insert City name</label>
+            <input type="text" id="city">
+            <button type="button">Show weather</button>
+        </div>
+        <div id="load">Loading...</div>
+        <div id="weather">
+            <h2 class="wetherCity">City Name</h2>
+            <div id="weatherDescription">Weaher Description</div>
+            <div id="weatherTemperature">Weather Temperature</div>
+        </div>
+    </div>    
+    <script src="init.js"></script>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
